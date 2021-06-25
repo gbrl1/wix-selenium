@@ -37,7 +37,14 @@ public class QuizTest {
 	
 	@Test
 	public void buttonTest() {
-		
+		quizPage.setColor();
+		quizPage.setPlanet();
+		quizPage.setCountry();
+		quizPage.setFirstMan();
+		quizPage.setPizzaToppings();
+		quizPage.setChoice();
+		quizPage.acceptTerms();
+		quizPage.submitForm();
 	}
 	
 	@AfterClass

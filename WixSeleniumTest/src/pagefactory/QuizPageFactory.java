@@ -21,6 +21,33 @@ public class QuizPageFactory {
 	@FindBy(xpath="//tbody/tr[1]/td[3]/button[1]/span[1]")
 	WebElement date;
 	
+	@FindBy(xpath="//div[contains(text(),'Green')]")
+	WebElement color;
+	
+	@FindBy(xpath="//div[contains(text(),'Jupiter')]")
+	WebElement planet;
+	
+	@FindBy(xpath="//div[contains(text(),'Spain')]")
+	WebElement country;
+	
+	@FindBy(xpath="//div[contains(text(),'Buzz Aldrin')]")
+	WebElement firstMan;
+	
+	@FindBy(xpath="//label[@id='2_comp-kq16e21s\']")
+	WebElement pineapple;
+	
+	@FindBy(xpath="//label[@id='3_comp-kq16e21s\']")
+	WebElement extraCheese;
+	
+	@FindBy(xpath="//option[contains(text(),'Choice 3')]")
+	WebElement choices;
+	
+	@FindBy(id="comp-kq16e0be")
+	WebElement acceptTerms;
+	
+	@FindBy(xpath="//div[@id='comp-kq16039e']//button")
+	WebElement submitForm;
+	
 	public QuizPageFactory (WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -37,6 +64,39 @@ public class QuizPageFactory {
 	public void setDate() {
 		dateForm.click();
 		date.click();
+	}
+	
+	public void setColor() {
+		color.click();
+	}
+	
+	public void setPlanet() {
+		planet.click();
+	}
+	
+	public void setCountry() {
+		country.click();
+	}
+	
+	public void setFirstMan() {
+		firstMan.click();
+	}
+	
+	public void setPizzaToppings() {
+		pineapple.click();
+		extraCheese.click();
+	}
+	
+	public void setChoice() {
+		choices.click();
+	}
+	
+	public void acceptTerms() {
+		acceptTerms.click();
+	}
+	
+	public void submitForm() {
+		submitForm.click();
 	}
 
 }
