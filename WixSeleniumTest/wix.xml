@@ -1,0 +1,7 @@
+<suite name="Regression TestSuit">
+<test name="Website Test">
+	<classes>
+		<class name="website.QuizTest"></class>
+	</classes>
+</test>
+</suite>
