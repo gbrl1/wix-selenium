@@ -2,6 +2,7 @@
 <test name="Website Test">
 	<classes>
 		<class name="website.QuizTest"></class>
+		<class name="website.LinkTest"></class>
 	</classes>
 </test>
 </suite>
