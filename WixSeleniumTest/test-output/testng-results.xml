@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-25T14:58:29 EDT" name="Default suite" finished-at="2021-06-25T14:58:34 EDT" duration-ms="5152">
+  <suite started-at="2021-06-26T13:55:14 EDT" name="Default suite" finished-at="2021-06-26T13:55:22 EDT" duration-ms="8028">
     <groups>
     </groups>
-    <test started-at="2021-06-25T14:58:29 EDT" name="Default test" finished-at="2021-06-25T14:58:34 EDT" duration-ms="5152">
-      <class name="website.QuizTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:website.QuizTest@378542de]" started-at="2021-06-25T14:58:29 EDT" name="setUp" finished-at="2021-06-25T14:58:31 EDT" duration-ms="1866" status="PASS">
+    <test started-at="2021-06-26T13:55:14 EDT" name="Default test" finished-at="2021-06-26T13:55:22 EDT" duration-ms="8028">
+      <class name="website.LinkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:website.LinkTest@378542de]" started-at="2021-06-26T13:55:14 EDT" name="setUp" finished-at="2021-06-26T13:55:16 EDT" duration-ms="1731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buttonTest()[pri:0, instance:website.QuizTest@378542de]" started-at="2021-06-25T14:58:31 EDT" name="buttonTest" finished-at="2021-06-25T14:58:31 EDT" duration-ms="335" status="PASS">
+        <test-method signature="gitHubTest()[pri:0, instance:website.LinkTest@378542de]" started-at="2021-06-26T13:55:16 EDT" name="gitHubTest" finished-at="2021-06-26T13:55:19 EDT" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buttonTest -->
-        <test-method signature="form()[pri:0, instance:website.QuizTest@378542de]" started-at="2021-06-25T14:58:31 EDT" name="form" finished-at="2021-06-25T14:58:31 EDT" duration-ms="171" status="PASS">
+        </test-method> <!-- gitHubTest -->
+        <test-method signature="otherLinks()[pri:0, instance:website.LinkTest@378542de]" started-at="2021-06-26T13:55:19 EDT" name="otherLinks" finished-at="2021-06-26T13:55:20 EDT" duration-ms="1078" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- form -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:website.QuizTest@378542de]" started-at="2021-06-25T14:58:31 EDT" name="tearDown" finished-at="2021-06-25T14:58:34 EDT" duration-ms="2758" status="PASS">
+        </test-method> <!-- otherLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:website.LinkTest@378542de]" started-at="2021-06-26T13:55:20 EDT" name="tearDown" finished-at="2021-06-26T13:55:22 EDT" duration-ms="2615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- website.QuizTest -->
+      </class> <!-- website.LinkTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

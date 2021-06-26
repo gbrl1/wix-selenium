@@ -39,7 +39,11 @@ public class LinkTest {
 	
 	@Test
 	public void otherLinks() {
-		
+		linkPage.clickResumeTab();
+		linkPage.clickQuizTab();
+		linkPage.clickiFrameTab();
+		linkPage.exploreiFrame();
+		linkPage.clickAboutTab();
 	}
 
 	@AfterClass
