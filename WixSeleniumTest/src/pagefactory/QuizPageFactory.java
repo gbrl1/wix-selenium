@@ -18,7 +18,7 @@ public class QuizPageFactory {
 	@FindBy(id="comp-kq16ih16")
 	WebElement dateForm;
 	
-	@FindBy(xpath="//tbody/tr[1]/td[3]/button[1]/span[1]")
+	@FindBy(xpath="//span[contains(text(),'15')]")
 	WebElement date;
 	
 	@FindBy(xpath="//div[contains(text(),'Green')]")
